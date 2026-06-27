@@ -2,8 +2,10 @@ import react from "react";
 import { Link } from "react-router-dom";
 import {useState} from "react"; 
 import logo from "../assets/logo.png";
+import aos from "aos";
 
 function Enroll() {
+    
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -58,13 +60,13 @@ function Enroll() {
                     </div>
                   </header>
 
-    <div className="max-w-5xl mx-auto px-6">
+    <div  className="max-w-5xl mx-auto px-6">
 
-        <div className="grid lg:grid-cols-2 bg-white rounded-3xl shadow-xl overflow-hidden">
+        <div  className="grid lg:grid-cols-2 bg-white rounded-3xl shadow-xl overflow-hidden">
 
             {/* Left Side */}
 
-            <div className="bg-gradient-to-br from-blue-700 to-indigo-700 text-white p-10 flex flex-col justify-center">
+            <div data-aos="fade-left" className="bg-gradient-to-br from-blue-700 to-indigo-700 text-white p-10 flex flex-col justify-center">
 
                 <h1 className="text-4xl font-bold">
                     Join DigiQuestPC
@@ -91,7 +93,7 @@ function Enroll() {
 
             {/* Right Side */}
 
-            <div className="p-10">
+            <div data-aos="fade-right" className="p-10">
 
                 <h2 className="text-3xl font-bold text-center">
                     Enroll Now

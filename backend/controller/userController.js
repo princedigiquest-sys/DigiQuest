@@ -1,26 +1,42 @@
-import express from 'express';
-import  user from '../model/model.js';
+import User from "../model/model.js";
 
-
-
+// Register User API
 async function registerUser(req, res) {
-    // Logic to register a user }
+  try {
+    const { name, email, phone, course } = req.body;
 
-    try{
-        const{name,email,mobile,course}=req.body;
+    // Check if same email already enrolled in same course
+    const alreadyExists = await User.findOne({
+      email: email.toLowerCase(),
+      course,
+    });
 
-        const response = await User.create({
-            name: name,
-            email: email,
-            mobile: mobile,
-            course: course
-        });
-        res.status(201).json(response);
-    } 
-    catch (error) {
-        res.status(500).json({ error: 'An error occurred while registering the user.' });
+    if (alreadyExists) {
+      return res.status(400).json({
+        success: false,
+        message: "You have already enrolled in this course.",
+      });
     }
-    // res.send("User registered successfully");
+
+    const response = await User.create({
+      name,
+      email: email.toLowerCase(),
+      mobile: phone,
+      course,
+    });
+
+    res.status(201).json({
+      success: true,
+      message: "Enrollment Successful",
+      data: response,
+    });
+
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
 }
 
 const userController = { registerUser };

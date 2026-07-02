@@ -261,126 +261,10 @@ function Course() {
 
 
                             </div>
+                      
+                      
 
                         </div>
-
-                        {/* Cloud */}
-                        <div className="bg-white rounded-3xl shadow-lg border border-gray-200 p-6 hover:-translate-y-3 hover:shadow-2xl transition-all duration-500">
-
-                            <div className="text-5xl">☁️</div>
-
-                            <h3 className="text-xl font-bold mt-5">
-                                Cloud Computing
-                            </h3>
-
-                            <p className="mt-4 text-gray-600">
-                                Learn cloud concepts, deployment and cloud services.
-                            </p>
-
-                            <div className="flex justify-between text-sm text-gray-500 mt-6">
-                                <span>⏳ 4 Months</span>
-                                <span>📘 Beginner</span>
-                            </div>
-
-                            <div className="flex gap-3 mt-8">
-
-                                <button
-                                    onClick={() =>
-                                        setSelectedCourse({
-                                            title: "Cloud Computing",
-                                            icon: "☁️",
-                                            duration: "4 Months",
-                                            level: "Beginner",
-                                            description:
-                                                "Learn AWS, EC2, S3, IAM, Cloud Deployment and Security."
-                                        })
-                                    }
-                                    className="flex-1 border-2 border-blue-600 text-blue-600 rounded-xl py-2 hover:bg-blue-600 hover:text-white transition"
-                                >
-                                    View
-                                </button>
-
-                                <Link to='/Enroll' className="flex-1 ">
-                                    <li className="flex-1 border-2 border-blue-600 text-blue-600 py-2 rounded-xl hover:bg-blue-600 hover:text-white transition text-center">
-                                        Enroll
-                                    </li>
-                                </Link>
-
-
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                {/* Popup */}
-                {selectedCourse && (
-                    <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
-
-                        <div className="bg-white rounded-3xl max-w-lg w-full p-8 relative">
-
-                            <button
-                                onClick={() => setSelectedCourse(null)}
-                                className="absolute top-4 right-5 text-3xl"
-                            >
-                                &times;
-                            </button>
-
-                            <div className="text-6xl">{selectedCourse.icon}</div>
-
-                            <h2 className="text-3xl font-bold mt-4">
-                                {selectedCourse.title}
-                            </h2>
-
-                            <p className="mt-5">
-                                <strong>Duration:</strong> {selectedCourse.duration}
-                            </p>
-
-                            <p className="mt-2">
-                                <strong>Level:</strong> {selectedCourse.level}
-                            </p>
-
-                            <p className="mt-6 text-gray-600 leading-8">
-                                {selectedCourse.description}
-                            </p>
-
-                            <div className="flex gap-4 mt-8">
-
-
-                                <Link to='/Enroll' className="flex-1 ">
-                                    <li className="flex-1 border-2 border-blue-600 text-blue-600 py-2 rounded-xl hover:bg-blue-600 hover:text-white transition text-center">
-                                        Enroll
-                                    </li>
-                                </Link>
-
-
-
-                                <button
-                                    onClick={() => setSelectedCourse(null)}
-                                    className="flex-1 border rounded-xl py-3 hover:bg-gray-100"
-                                >
-                                    Close
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                )}
-
-            </section>
-
-            {/* More Courses */}
-
-            <section className="pb-20 bg-gray-50">
-
-                <div data-aos="fade-up" className="max-w-7xl mx-auto px-6">
-
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
                         {/* Java */}
                         <div className="bg-white rounded-3xl shadow-lg border border-gray-200 p-6 hover:-translate-y-3 hover:shadow-2xl transition-all duration-500">
@@ -429,7 +313,7 @@ function Course() {
 
                         </div>
 
-                        {/* C & C++ */}
+                           {/* C & C++ */}
                         <div className="bg-white rounded-3xl shadow-lg border border-gray-200 p-6 hover:-translate-y-3 hover:shadow-2xl transition-all duration-500">
 
                             <div className="text-5xl">💻</div>
@@ -476,54 +360,7 @@ function Course() {
 
                         </div>
 
-                        {/* Networking */}
-                        <div className="bg-white rounded-3xl shadow-lg border border-gray-200 p-6 hover:-translate-y-3 hover:shadow-2xl transition-all duration-500">
-
-                            <div className="text-5xl">🌐</div>
-
-                            <h3 className="text-2xl font-bold mt-5">
-                                Networking
-                            </h3>
-
-                            <p className="mt-4 text-gray-600 leading-7">
-                                Learn networking concepts, routing, switching,
-                                Cisco and network security.
-                            </p>
-
-                            <div className="flex justify-between text-sm text-gray-500 mt-6">
-                                <span>⏳ 5 Months</span>
-                                <span>📘 Intermediate</span>
-                            </div>
-
-                            <div className="flex gap-3 mt-8">
-
-                                <button
-                                    onClick={() =>
-                                        setSelectedCourse({
-                                            icon: "🌐",
-                                            title: "Networking",
-                                            duration: "5 Months",
-                                            level: "Intermediate",
-                                            description:
-                                                "Learn CCNA basics, Routing, Switching, Firewalls, LAN, WAN and Network Security."
-                                        })
-                                    }
-                                    className="flex-1 border-2 border-blue-600 text-blue-600 py-2 rounded-xl hover:bg-blue-600 hover:text-white transition"
-                                >
-                                    View
-                                </button>
-
-                                <Link to='/Enroll' className="flex-1 ">
-                                    <li className="flex-1 border-2 border-blue-600 text-blue-600 py-2 rounded-xl hover:bg-blue-600 hover:text-white transition text-center">
-                                        Enroll
-                                    </li>
-                                </Link>
-
-                            </div>
-
-                        </div>
-
-                        {/* Digital Marketing */}
+                          {/* Digital Marketing */}
                         <div className="bg-white rounded-3xl shadow-lg border border-gray-200 p-6 hover:-translate-y-3 hover:shadow-2xl transition-all duration-500">
 
                             <div className="text-5xl">📱</div>
@@ -570,15 +407,67 @@ function Course() {
 
                         </div>
 
+                       
                     </div>
 
                 </div>
 
-            </section>
-            
+                {/* Popup */}
+                {selectedCourse && (
+                    <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
 
+                        <div className="bg-white rounded-3xl max-w-lg w-full p-8 relative">
 
-            {/* Why Learn With Us */}
+                            <button
+                                onClick={() => setSelectedCourse(null)}
+                                className="absolute top-4 right-5 text-3xl"
+                            >
+                                &times;
+                            </button>
+
+                            <div className="text-6xl">{selectedCourse.icon}</div>
+
+                            <h2 className="text-3xl font-bold mt-4">
+                                {selectedCourse.title}
+                            </h2>
+
+                            <p className="mt-5">
+                                <strong>Duration:</strong> {selectedCourse.duration}
+                            </p>
+
+                            <p className="mt-2">
+                                <strong>Level:</strong> {selectedCourse.level}
+                            </p>
+
+                            <p className="mt-6 text-gray-600 leading-8">
+                                {selectedCourse.description}
+                            </p>
+
+                            <div className="flex gap-4 mt-8">
+
+                                <Link to='/Enroll' className="flex-1 ">
+                                    <li className="flex-1 border-2 border-blue-600 text-blue-600 py-2 rounded-xl hover:bg-blue-600 hover:text-white transition text-center">
+                                        Enroll
+                                    </li>
+                                </Link>
+
+                                <button
+                                    onClick={() => setSelectedCourse(null)}
+                                    className="flex-1 border rounded-xl py-3 hover:bg-gray-100"
+                                >
+                                    Close
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                )}
+                 
+            </section>        
+
+             {/* Why Learn With Us */}
 
          <section className="relative overflow-hidden bg-white py-24">
             {/* bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 */}
@@ -1056,7 +945,7 @@ function Course() {
 
 </section>
 
-           <footer className="bg-slate-900 text-white mt-24">
+           <footer className="bg-slate-900 text-white ">
           
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-12 py-16 px-6">
           

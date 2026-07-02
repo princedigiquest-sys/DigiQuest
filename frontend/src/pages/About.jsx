@@ -326,64 +326,93 @@ function About() {
 
       {/* ================= Why Choose ================= */}
 
-      <section className="py-24">
+     <section className="py-24 bg-gradient-to-b from-white via-blue-50 to-white">
+  <div className="max-w-7xl mx-auto px-6">
 
-        <div className="max-w-7xl mx-auto px-6">
+    {/* Heading */}
+    <div className="text-center mb-16">
+      <span
+        data-aos="fade-up"
+        className="inline-block px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold"
+      >
+        Why Choose Us
+      </span>
 
-          <div className="text-center mb-16">
+      <h2
+        data-aos="fade-up"
+        className="text-4xl lg:text-5xl font-bold mt-5 text-gray-900"
+      >
+        Why Students Choose
+        <span className="text-blue-600"> DigiQuestPC</span>
+      </h2>
 
-            <h2
-              data-aos="fade-up"
-              className="text-4xl font-bold"
-            >
-              🌟 Why Students Choose DigiQuestPC
-            </h2>
+      <p
+        data-aos="fade-up"
+        className="mt-5 text-gray-600 max-w-2xl mx-auto text-lg"
+      >
+        Learn practical skills, build real-world projects, and get career
+        support from experienced mentors.
+      </p>
+    </div>
 
-            <p
-              data-aos="fade-up"
-              className="mt-5 text-gray-600"
-            >
-              Thousands of students trust us to build successful careers.
-            </p>
+    {/* Cards */}
+    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
+      {[
+        {
+          icon: "💻",
+          title: "Practical Training",
+          desc: "Hands-on learning with real software and tools."
+        },
+        {
+          icon: "🚀",
+          title: "Live Projects",
+          desc: "Work on industry-level projects to gain experience."
+        },
+        {
+          icon: "👨‍🏫",
+          title: "Expert Mentors",
+          desc: "Learn directly from experienced IT professionals."
+        },
+        {
+          icon: "🏆",
+          title: "Certification",
+          desc: "Earn recognized certificates after course completion."
+        },
+        {
+          icon: "💼",
+          title: "Placement Support",
+          desc: "Resume building, interview preparation & job assistance."
+        },
+        {
+          icon: "🎯",
+          title: "Career Guidance",
+          desc: "Personal mentoring to help you choose the right career path."
+        },
+      ].map((item, index) => (
+        <div
+          key={index}
+          data-aos="zoom-in-up"
+          data-aos-delay={index * 100}
+          className="group bg-white rounded-3xl p-8 shadow-lg border border-blue-100 hover:-translate-y-3 hover:shadow-2xl transition-all duration-500"
+        >
+          <div className="w-16 h-16 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center text-3xl mb-6 group-hover:rotate-6 duration-300">
+            {item.icon}
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+          <h3 className="text-xl font-bold text-gray-900 mb-3">
+            {item.title}
+          </h3>
 
-            {[
-              "Industry-Oriented Practical Training",
-              "Live Projects & Assignments",
-              "Experienced Industry Mentors",
-              "Modern Computer Labs",
-              "Small Batch Size",
-              "Global Certifications",
-              "Placement Assistance",
-              "Scholarship Programs",
-              "Professional Environment",
-              "Career Guidance"
-            ].map((item, index) => (
-
-              <div
-                key={index}
-                data-aos="flip-left"
-                data-aos-delay={index * 50}
-                className="bg-gradient-to-br from-blue-400 to-indigo-500 text-white rounded-2xl p-6 shadow-xl hover:scale-105 duration-500  border border-gray-700"
-              >
-                <div className="text-4xl mb-4">⭐</div>
-
-                <h3 className="font-semibold">
-                  {item}
-                </h3>
-
-              </div>
-
-            ))}
-
-          </div>
-
+          <p className="text-gray-600 leading-7">
+            {item.desc}
+          </p>
         </div>
+      ))}
 
-      </section>
+    </div>
+  </div>
+</section>
 
       {/* ================= Vision Mission ================= */}
 
@@ -660,10 +689,7 @@ function About() {
     className="relative z-10 max-w-5xl mx-auto px-6"
   >
     <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[35px] p-12 shadow-2xl text-center">
-{/* 
-      <span className="inline-block px-5 py-2 rounded-full bg-white/20 text-blue-100 font-semibold">
-        🚀 Join DigiQuestPC
-      </span> */}
+
 
       <h2 className="text-5xl font-extrabold mt-6 leading-tight">
         Start Your Learning
@@ -678,38 +704,7 @@ function About() {
         to launch your career.
       </p>
 
-      {/* Stats */}
-      {/* <div className="grid grid-cols-3 gap-6 mt-10">
-
-        <div>
-          <h3 className="text-3xl font-bold text-cyan-300">
-            500+
-          </h3>
-          <p className="text-blue-100 mt-2">
-            Students
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-3xl font-bold text-cyan-300">
-            20+
-          </h3>
-          <p className="text-blue-100 mt-2">
-            Courses
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-3xl font-bold text-cyan-300">
-            100%
-          </h3>
-          <p className="text-blue-100 mt-2">
-            Support
-          </p>
-        </div> */}
-
-      {/* </div> */}
-
+ 
       {/* Buttons */}
       <div className="flex flex-col sm:flex-row justify-center gap-5 mt-12">
 
@@ -732,7 +727,7 @@ function About() {
 
 </section>
 
-        <footer className="bg-slate-900 text-white mt-24">
+        <footer className="bg-slate-900 text-white">
        
          <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-12 py-16 px-6">
        

@@ -645,191 +645,161 @@ function Placement() {
 
 </section>
 
-            {/* Call To Action */}
-
-          <section className="relative overflow-hidden py-24 bg-gradient-to-br from-blue-700 via-indigo-700 to-slate-900 text-white">
-
-  {/* Background Blur Effects */}
-  <div className="absolute -top-20 -left-20 w-72 h-72 bg-cyan-400/20 rounded-full blur-3xl animate-pulse"></div>
-  <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
-
-  <div
-    data-aos="zoom-in"
-    className="relative z-10 max-w-5xl mx-auto px-6"
-  >
-    <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[35px] p-12 shadow-2xl text-center">
-
-      <span className="inline-block px-5 py-2 rounded-full bg-white/20 text-blue-100 font-semibold">
-        🚀 Join DigiQuestPC
-      </span>
-
-      <h2 className="text-5xl font-extrabold mt-6 leading-tight">
-        Start Your Learning
-        <span className="block text-cyan-300">
-          Journey Today
-        </span>
-      </h2>
-
-      <p className="mt-6 text-lg text-blue-100 max-w-2xl mx-auto leading-8">
-        Learn from industry experts, build real-world projects,
-        earn certification, and get dedicated placement support
-        to launch your career.
-      </p>
-
-      {/* Stats */}
-      <div className="grid grid-cols-3 gap-6 mt-10">
-
-        <div>
-          <h3 className="text-3xl font-bold text-cyan-300">
-            500+
-          </h3>
-          <p className="text-blue-100 mt-2">
-            Students
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-3xl font-bold text-cyan-300">
-            20+
-          </h3>
-          <p className="text-blue-100 mt-2">
-            Courses
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-3xl font-bold text-cyan-300">
-            100%
-          </h3>
-          <p className="text-blue-100 mt-2">
-            Support
-          </p>
-        </div>
-
-      </div>
-
-      {/* Buttons */}
-      <div className="flex flex-col sm:flex-row justify-center gap-5 mt-12">
-
-        <Link to="/Enroll">
-          <button className="px-10 py-4 rounded-xl bg-white text-blue-700 font-bold text-lg shadow-lg hover:bg-cyan-300 hover:text-slate-900 hover:scale-105 transition-all duration-300">
-            Enroll Now →
-          </button>
-        </Link>
-
-        <Link to="/Course">
-          <button className="px-10 py-4 rounded-xl border-2 border-white font-semibold hover:bg-white hover:text-blue-700 transition-all duration-300">
-            Explore Courses
-          </button>
-        </Link>
-
-      </div>
-
-    </div>
-  </div>
-
-</section>
-
-          <footer className="bg-slate-900 text-white mt-24">
+         {/* ================= Call To Action ================= */}
          
-           <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-12 py-16 px-6">
+               <section className="relative overflow-hidden py-24 bg-gradient-to-br from-blue-700 via-indigo-700 to-slate-900 text-white"
+                  style={{
+             backgroundImage: `linear-gradient(rgba(50,0,0,0.6), rgba(0,0,50,0.6)), url(${placementBg})`,
+           }} >
+             
+                    
+           {/* Background Blur Effects */}
+           <div className="absolute -top-20 -left-20 w-72 h-72 bg-cyan-400/20 rounded-full blur-3xl animate-pulse"></div>
+           <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
          
-             {/* ================= COLUMN 1 ================= */}
-             <div data-aos="fade-up">
-               <h2 className="text-3xl font-bold">
-                 DigiQuestPC
+           <div
+             data-aos="zoom-in"
+             className="relative z-10 max-w-5xl mx-auto px-6"
+           >
+             <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[35px] p-12 shadow-2xl text-center">
+         
+         
+               <h2 className="text-5xl font-extrabold mt-6 leading-tight">
+                 Start Your Learning
+                 <span className="block text-cyan-300">
+                   Journey Today
+                 </span>
                </h2>
          
-               <p className="mt-5 text-gray-300 leading-8">
-                 Upskill with practical training, mentorship and placement support.
+               <p className="mt-6 text-lg text-blue-100 max-w-2xl mx-auto leading-8">
+                 Learn from industry experts, build real-world projects,
+                 earn certification, and get dedicated placement support
+                 to launch your career.
                </p>
          
-               <p className="mt-8 text-gray-400">
-                 © 2026 DigiQuestPC. All Rights Reserved.
-               </p>
-             </div>
+          
+               {/* Buttons */}
+               <div className="flex flex-col sm:flex-row justify-center gap-5 mt-12">
          
-             {/* ================= QUICK LINKS ================= */}
-             <div data-aos="fade-up" data-aos-delay="200">
+                 <Link to="/Enroll">
+                   <button className="px-10 py-4 rounded-xl bg-white text-blue-700 font-bold text-lg shadow-lg hover:bg-cyan-300 hover:text-slate-900 hover:scale-105 transition-all duration-300">
+                     Enroll Now →
+                   </button>
+                 </Link>
          
-               <h2 className="text-2xl font-bold mb-6">
-                 Quick Links
-               </h2>
+                 <Link to="/Course">
+                   <button className="px-10 py-4 rounded-xl border-2 border-white font-semibold hover:bg-white hover:text-blue-700 transition-all duration-300">
+                     Explore Courses
+                   </button>
+                 </Link>
          
-               <ul className="space-y-4 text-gray-300">
-         
-                 <li className="hover:text-blue-400 cursor-pointer">Home</li>
-                 <li className="hover:text-blue-400 cursor-pointer">About Us</li>
-                 <li className="hover:text-blue-400 cursor-pointer">Placement</li>
-                 <li className="hover:text-blue-400 cursor-pointer">Contact</li>
-         
-               </ul>
+               </div>
          
              </div>
-         
-             {/* ================= COURSES ================= */}
-             <div data-aos="fade-up" data-aos-delay="300">
-         
-               <h2 className="text-2xl font-bold mb-6">
-                 Courses
-               </h2>
-         
-               <ul className="space-y-4 text-gray-300">
-         
-                 <li className="hover:text-blue-400 cursor-pointer">
-                   Full Stack Development
-                 </li>
-         
-                 <li className="hover:text-blue-400 cursor-pointer">
-                   Python Programming
-                 </li>
-         
-                 <li className="hover:text-blue-400 cursor-pointer">
-                   Java Programming
-                 </li>
-         
-                 <li className="hover:text-blue-400 cursor-pointer">
-                   Data Analytics
-                 </li>
-         
-                 <li className="hover:text-blue-400 cursor-pointer">
-                   Cloud Computing
-                 </li>
-         
-                 <li className="hover:text-blue-400 cursor-pointer">
-                   Digital Marketing
-                 </li>
-         
-               </ul>
-         
-             </div>
-         
-             {/* ================= CONTACT ================= */}
-             <div data-aos="fade-up" data-aos-delay="400">
-         
-               <h2 className="text-2xl font-bold">
-                 Contact
-               </h2>
-         
-               <p className="mt-6 text-gray-300">
-                 📞 +91 92363 98129
-               </p>
-         
-               <p className="mt-4 text-gray-300">
-                 📧 digiquestpc@gmail.com
-               </p>
-         
-               <Link to='/Enroll'>
-                 <div className="mt-6 inline-block text-blue-400 hover:text-blue-300 transition cursor-pointer">
-                   → Enroll Now
-                 </div>
-               </Link>
-         
-             </div>
-         
            </div>
          
-         </footer>
+         </section>
+     <footer className="bg-slate-900 text-white">
+       
+         <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-12 py-16 px-6">
+       
+           {/* ================= COLUMN 1 ================= */}
+           <div data-aos="fade-up">
+             <h2 className="text-3xl font-bold">
+               DigiQuestPC
+             </h2>
+       
+             <p className="mt-5 text-gray-300 leading-8">
+               Upskill with practical training, mentorship and placement support.
+             </p>
+       
+             <p className="mt-8 text-gray-400">
+               © 2026 DigiQuestPC. All Rights Reserved.
+             </p>
+           </div>
+       
+           {/* ================= QUICK LINKS ================= */}
+           <div data-aos="fade-up" data-aos-delay="200">
+       
+             <h2 className="text-2xl font-bold mb-6">
+               Quick Links
+             </h2>
+       
+             <ul className="space-y-4 text-gray-300">
+       
+               <li className="hover:text-blue-400 cursor-pointer">Home</li>
+               <li className="hover:text-blue-400 cursor-pointer">About Us</li>
+               <li className="hover:text-blue-400 cursor-pointer">Placement</li>
+               <li className="hover:text-blue-400 cursor-pointer">Contact</li>
+       
+             </ul>
+       
+           </div>
+       
+           {/* ================= COURSES ================= */}
+           <div data-aos="fade-up" data-aos-delay="300">
+       
+             <h2 className="text-2xl font-bold mb-6">
+               Courses
+             </h2>
+       
+             <ul className="space-y-4 text-gray-300">
+       
+               <li className="hover:text-blue-400 cursor-pointer">
+                 Full Stack Development
+               </li>
+       
+               <li className="hover:text-blue-400 cursor-pointer">
+                 Python Programming
+               </li>
+       
+               <li className="hover:text-blue-400 cursor-pointer">
+                 Java Programming
+               </li>
+       
+               <li className="hover:text-blue-400 cursor-pointer">
+                 Data Analytics
+               </li>
+       
+               <li className="hover:text-blue-400 cursor-pointer">
+                 Cloud Computing
+               </li>
+       
+               <li className="hover:text-blue-400 cursor-pointer">
+                 Digital Marketing
+               </li>
+       
+             </ul>
+       
+           </div>
+       
+           {/* ================= CONTACT ================= */}
+           <div data-aos="fade-up" data-aos-delay="400">
+       
+             <h2 className="text-2xl font-bold">
+               Contact
+             </h2>
+       
+             <p className="mt-6 text-gray-300">
+               📞 +91 92363 98129
+             </p>
+       
+             <p className="mt-4 text-gray-300">
+               📧 digiquestpc@gmail.com
+             </p>
+       
+             <Link to='/Enroll'>
+               <div className="mt-6 inline-block text-blue-400 hover:text-blue-300 transition cursor-pointer">
+                 → Enroll Now
+               </div>
+             </Link>
+       
+           </div>
+       
+         </div>
+       
+       </footer>
+      
             
 
         </div>

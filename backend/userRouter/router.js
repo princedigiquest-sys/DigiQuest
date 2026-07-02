@@ -12,6 +12,6 @@ router.get('/',(req,res)=>{
     res.send("user router is running");
 })
 
-router.post('/register' , userController.registerUser);
+router.post('/registerUser' , userController.registerUser);
 
 export default router;

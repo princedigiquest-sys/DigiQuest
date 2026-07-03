@@ -610,22 +610,43 @@ function Home() {
           </div>
 
           {/* ================= QUICK LINKS ================= */}
-          <div data-aos="fade-up" data-aos-delay="200">
+        <div data-aos="fade-up" data-aos-delay="200">
+  <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
+    Quick Links
+  </h2>
 
-            <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
-              Quick Links
-            </h2>
+  <ul className="space-y-2 sm:space-y-3 md:space-y-4 text-gray-300 text-sm sm:text-base">
+    <li>
+      <Link to="/" className="hover:text-blue-400 cursor-pointer">
+        Home
+      </Link>
+    </li>
 
-            <ul className="space-y-2 sm:space-y-3 md:space-y-4 text-gray-300 text-sm sm:text-base">
+    <li>
+      <Link to="/about" className="hover:text-blue-400 cursor-pointer">
+        About Us
+      </Link>
+    </li>
 
-              <li className="hover:text-blue-400 cursor-pointer">Home</li>
-              <li className="hover:text-blue-400 cursor-pointer">About Us</li>
-              <li className="hover:text-blue-400 cursor-pointer">Placement</li>
-              <li className="hover:text-blue-400 cursor-pointer">Contact</li>
+    <li>
+      <Link to="/placement" className="hover:text-blue-400 cursor-pointer">
+        Placement
+      </Link>
+    </li>
 
-            </ul>
-
-          </div>
+    <li>
+        <a
+                  href="https://wa.me/919236398129?text=Hello%20DigiQuestPC,%20I%20want%20to%20know%20about%20your%20courses."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="hover:text-blue-400 cursor-pointer" >
+                     Contact
+                  </button>
+                </a>
+    </li>
+  </ul>
+</div>
 
           {/* ================= COURSES ================= */}
           <div data-aos="fade-up" data-aos-delay="300">
@@ -636,28 +657,40 @@ function Home() {
 
             <ul className="space-y-2 sm:space-y-3 md:space-y-4 text-gray-300 text-sm sm:text-base">
 
-              <li className="hover:text-blue-400 cursor-pointer">
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
                 Full Stack Development
+                </Link>
               </li>
 
-              <li className="hover:text-blue-400 cursor-pointer">
-                Python Programming
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Python Programming
+                </Link>
               </li>
 
-              <li className="hover:text-blue-400 cursor-pointer">
-                Java Programming
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Java Programming
+                </Link>
               </li>
 
-              <li className="hover:text-blue-400 cursor-pointer">
-                Data Analytics
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Data Analytics
+                </Link>
               </li>
 
-              <li className="hover:text-blue-400 cursor-pointer">
-                Cloud Computing
-              </li>
+              {/* <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Cloud Computing
+                </Link>
+              </li> */}
 
-              <li className="hover:text-blue-400 cursor-pointer">
-                Digital Marketing
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Digital Marketing
+                </Link>
               </li>
 
             </ul>
@@ -675,9 +708,14 @@ function Home() {
               📞 +91 92363 98129
             </p>
 
-            <p className="mt-3 sm:mt-4 text-gray-300 text-sm sm:text-base">
-              📧 digiquestpc@gmail.com
-            </p>
+            <button>
+              <a
+                href="mailto:digiquestpc@gmail.com"
+                className="mt-4 sm:mt-6 inline-block text-blue-400 hover:text-blue-300 transition cursor-pointer text-sm sm:text-base"
+              >
+                📧 digiquestpc@gmail.com
+              </a>
+            </button>
 
             <Link to='/Enroll'>
               <div className="mt-4 sm:mt-6 inline-block text-blue-400 hover:text-blue-300 transition cursor-pointer text-sm sm:text-base">

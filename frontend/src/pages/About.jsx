@@ -552,102 +552,13 @@ function About() {
 
       </section>
 
-      {/* ================= Contact ================= */}
-
-      <section className="py-12 sm:py-16 md:py-20 lg:py-24">
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-
-          <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16">
-
-            <h2
-              data-aos="fade-up"
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold"
-            >
-              📍 Get In Touch
-            </h2>
-
-            <p
-              data-aos="fade-up"
-              className="text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base"
-            >
-              Visit our nearest office or contact us for admissions and placements.
-            </p>
-
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 md:gap-8">
-
-            <div
-              data-aos="fade-up"
-              className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 border-t-4 border-blue-600 hover:-translate-y-3 duration-500 border border-gray-700"
-            >
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-5">
-                Registered Branch
-              </h3>
-
-              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📞 +91 9236185711</p>
-              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📧 info@dcs.org.in</p>
-
-              <p className="text-gray-600 text-sm sm:text-base">
-                41K Kalepur, Behind Shekhar Hospital,
-                Paidleganj, Gorakhpur - 273001
-              </p>
-
-            </div>
-
-            <div
-              data-aos="fade-up"
-              data-aos-delay="150"
-              className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 border-t-4 border-green-600 hover:-translate-y-3 duration-500 border border-gray-700"
-            >
-
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-5">
-                Corporate Branch
-              </h3>
-
-              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📞 +91 9236398112</p>
-              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📧 tech.in.dcs@gmail.com</p>
-
-              <p className="text-gray-600 text-sm sm:text-base">
-                Near DIG Bunglow, Bilandpur,      
-                Gorakhpur - 273001
-              </p>
-
-            </div>
-
-            <div
-              data-aos="fade-up"
-              data-aos-delay="300"
-              className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 border-t-4 border-red-600 hover:-translate-y-3 duration-500 border border-gray-700"
-            >
-
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-5">
-                Training & Placement
-              </h3>
-
-              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📞 +91 9236398112</p>
-              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📧 tech.in.dcs@gmail.com</p>
-
-              <p className="text-gray-600 text-sm sm:text-base">
-                B-38 GIDA Sector-5,
-                Gorakhpur - 273209
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
 
       {/* ================= Achievement Section ================= */}
 
-         <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-slate-950 text-white overflow-hidden relative">
+         {/* <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-slate-950 text-white overflow-hidden relative"> */}
 
   {/* Background Blur */}
-  <div className="absolute top-0 left-0 w-72 h-72 bg-blue-500/20 blur-[120px] rounded-full"></div>
+  {/* <div className="absolute top-0 left-0 w-72 h-72 bg-blue-500/20 blur-[120px] rounded-full"></div>
   <div className="absolute bottom-0 right-0 w-80 h-80 bg-indigo-500/20 blur-[120px] rounded-full"></div>
 
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
@@ -756,7 +667,97 @@ function About() {
 
   </div>
 
-</section>
+</section> */}
+
+  {/* ================= Contact ================= */}
+
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24">
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+
+          <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16">
+
+            <h2
+              data-aos="fade-up"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold"
+            >
+              📍 Get In Touch
+            </h2>
+
+            <p
+              data-aos="fade-up"
+              className="text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base"
+            >
+              Visit our nearest office or contact us for admissions and placements.
+            </p>
+
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 md:gap-8">
+
+            <div
+              data-aos="fade-up"
+              className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 border-t-4 border-blue-600 hover:-translate-y-3 duration-500 border border-gray-700"
+            >
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-5">
+                Registered Branch
+              </h3>
+
+              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📞 +91 9236185711</p>
+              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📧 info@dcs.org.in</p>
+
+              <p className="text-gray-600 text-sm sm:text-base">
+                41K Kalepur, Behind Shekhar Hospital,
+                Paidleganj, Gorakhpur - 273001
+              </p>
+
+            </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-delay="150"
+              className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 border-t-4 border-green-600 hover:-translate-y-3 duration-500 border border-gray-700"
+            >
+
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-5">
+                Corporate Branch
+              </h3>
+
+              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📞 +91 9236398112</p>
+              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📧 tech.in.dcs@gmail.com</p>
+
+              <p className="text-gray-600 text-sm sm:text-base">
+                Near DIG Bunglow, Bilandpur,      
+                Gorakhpur - 273001
+              </p>
+
+            </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-delay="300"
+              className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 border-t-4 border-red-600 hover:-translate-y-3 duration-500 border border-gray-700"
+            >
+
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-5">
+                Training & Placement
+              </h3>
+
+              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📞 +91 9236398112</p>
+              <p className="mb-2 sm:mb-3 text-sm sm:text-base">📧 tech.in.dcs@gmail.com</p>
+
+              <p className="text-gray-600 text-sm sm:text-base">
+                B-38 GIDA Sector-5,
+                Gorakhpur - 273209
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
 
       {/* ================= Call To Action ================= */}
 
@@ -812,107 +813,145 @@ function About() {
   </div>
 
 </section>
+  <footer className="bg-slate-900 text-white">
 
-         <footer className="bg-slate-900 text-white">
-                  
-                    <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 md:gap-12 py-12 sm:py-14 md:py-16 px-4 sm:px-6">
-                  
-                      {/* ================= COLUMN 1 ================= */}
-                      <div data-aos="fade-up">
-                        <h2 className="text-2xl sm:text-3xl font-bold">
-                          DigiQuestPC
-                        </h2>
-                  
-                        <p className="mt-4 sm:mt-5 text-gray-300 leading-7 sm:leading-8 text-sm sm:text-base">
-                          Upskill with practical training, mentorship and placement support.
-                        </p>
-                  
-                        <p className="mt-6 sm:mt-8 text-gray-400 text-xs sm:text-sm">
-                          © 2026 DigiQuestPC. All Rights Reserved.
-                        </p>
-                      </div>
-                  
-                      {/* ================= QUICK LINKS ================= */}
-                      <div data-aos="fade-up" data-aos-delay="200">
-                  
-                        <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
-                          Quick Links
-                        </h2>
-                  
-                        <ul className="space-y-2 sm:space-y-3 md:space-y-4 text-gray-300 text-sm sm:text-base">
-                  
-                          <li className="hover:text-blue-400 cursor-pointer">Home</li>
-                          <li className="hover:text-blue-400 cursor-pointer">About Us</li>
-                          <li className="hover:text-blue-400 cursor-pointer">Placement</li>
-                          <li className="hover:text-blue-400 cursor-pointer">Contact</li>
-                  
-                        </ul>
-                  
-                      </div>
-                  
-                      {/* ================= COURSES ================= */}
-                      <div data-aos="fade-up" data-aos-delay="300">
-                  
-                        <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
-                          Courses
-                        </h2>
-                  
-                        <ul className="space-y-2 sm:space-y-3 md:space-y-4 text-gray-300 text-sm sm:text-base">
-                  
-                          <li className="hover:text-blue-400 cursor-pointer">
-                            Full Stack Development
-                          </li>
-                  
-                          <li className="hover:text-blue-400 cursor-pointer">
-                            Python Programming
-                          </li>
-                  
-                          <li className="hover:text-blue-400 cursor-pointer">
-                            Java Programming
-                          </li>
-                  
-                          <li className="hover:text-blue-400 cursor-pointer">
-                            Data Analytics
-                          </li>
-                  
-                          <li className="hover:text-blue-400 cursor-pointer">
-                            Cloud Computing
-                          </li>
-                  
-                          <li className="hover:text-blue-400 cursor-pointer">
-                            Digital Marketing
-                          </li>
-                  
-                        </ul>
-                  
-                      </div>
-                  
-                      {/* ================= CONTACT ================= */}
-                      <div data-aos="fade-up" data-aos-delay="400">
-                  
-                        <h2 className="text-xl sm:text-2xl font-bold">
-                          Contact
-                        </h2>
-                  
-                        <p className="mt-4 sm:mt-6 text-gray-300 text-sm sm:text-base">
-                          📞 +91 92363 98129
-                        </p>
-                  
-                        <p className="mt-3 sm:mt-4 text-gray-300 text-sm sm:text-base">
-                          📧 digiquestpc@gmail.com
-                        </p>
-                  
-                        <Link to='/Enroll'>
-                          <div className="mt-4 sm:mt-6 inline-block text-blue-400 hover:text-blue-300 transition cursor-pointer text-sm sm:text-base">
-                            → Enroll Now
-                          </div>
-                        </Link>
-                  
-                      </div>
-                  
-                    </div>
-                  
-                  </footer>
+        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 md:gap-12 py-12 sm:py-14 md:py-16 px-4 sm:px-6">
+
+          {/* ================= COLUMN 1 ================= */}
+          <div data-aos="fade-up">
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              DigiQuestPC
+            </h2>
+
+            <p className="mt-4 sm:mt-5 text-gray-300 leading-7 sm:leading-8 text-sm sm:text-base">
+              Upskill with practical training, mentorship and placement support.
+            </p>
+
+            <p className="mt-6 sm:mt-8 text-gray-400 text-xs sm:text-sm">
+              © 2026 DigiQuestPC. All Rights Reserved.
+            </p>
+          </div>
+
+          {/* ================= QUICK LINKS ================= */}
+        <div data-aos="fade-up" data-aos-delay="200">
+  <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
+    Quick Links
+  </h2>
+
+  <ul className="space-y-2 sm:space-y-3 md:space-y-4 text-gray-300 text-sm sm:text-base">
+    <li>
+      <Link to="/" className="hover:text-blue-400 cursor-pointer">
+        Home
+      </Link>
+    </li>
+
+    <li>
+      <Link to="/about" className="hover:text-blue-400 cursor-pointer">
+        About Us
+      </Link>
+    </li>
+
+    <li>
+      <Link to="/placement" className="hover:text-blue-400 cursor-pointer">
+        Placement
+      </Link>
+    </li>
+
+    <li>
+       <a
+                  href="https://wa.me/919236398129?text=Hello%20DigiQuestPC,%20I%20want%20to%20know%20about%20your%20courses."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="hover:text-blue-400 cursor-pointer" >
+                     Contact
+                  </button>
+                </a>
+    </li>
+  </ul>
+</div>
+
+          {/* ================= COURSES ================= */}
+          <div data-aos="fade-up" data-aos-delay="300">
+
+            <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
+              Courses
+            </h2>
+
+            <ul className="space-y-2 sm:space-y-3 md:space-y-4 text-gray-300 text-sm sm:text-base">
+
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                Full Stack Development
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Python Programming
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Java Programming
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Data Analytics
+                </Link>
+              </li>
+
+              {/* <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Cloud Computing
+                </Link>
+              </li> */}
+
+              <li>
+                <Link to="/Course" className="hover:text-blue-400 cursor-pointer">
+                  Digital Marketing
+                </Link>
+              </li>
+
+            </ul>
+
+          </div>
+
+          {/* ================= CONTACT ================= */}
+          <div data-aos="fade-up" data-aos-delay="400">
+
+            <h2 className="text-xl sm:text-2xl font-bold">
+              Contact
+            </h2>
+
+            <p className="mt-4 sm:mt-6 text-gray-300 text-sm sm:text-base">
+              📞 +91 92363 98129
+            </p>
+
+            <button>
+              <a
+                href="mailto:digiquestpc@gmail.com"
+                className="mt-4 sm:mt-6 inline-block text-blue-400 hover:text-blue-300 transition cursor-pointer text-sm sm:text-base"
+              >
+                📧 digiquestpc@gmail.com
+              </a>
+            </button>
+
+            <Link to='/Enroll'>
+              <div className="mt-4 sm:mt-6 inline-block text-blue-400 hover:text-blue-300 transition cursor-pointer text-sm sm:text-base">
+                → Enroll Now
+              </div>
+            </Link>
+
+          </div>
+
+        </div>
+
+      </footer>
+
 
     </div>
   );
